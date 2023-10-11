@@ -1,54 +1,93 @@
-* {
+*{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
-
-body {
+body{
     font-family: montserrat;
-    background-image: linear-gradient(#10002b, #e0aaff);
+    background-image: linear-gradient(#10002b,#e0aaff);
     background-size: 1000px 1000px;
 }
-
-nav {
-    /* background: #03071e; */
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Center vertically */
+nav{
+    background:none;
     height: 80px;
     width: 100%;
 }
-
-nav ul {
-    /* float: right; */
-    /* margin-right: 20px; */
-    text-align: center;
+label.logo{
+    color:white;
+    font-size:35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
 }
-
-nav ul li {
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 15px;
+    margin: 0 5px;
 }
-
-nav ul li a {
-    color: white;
+nav ul li a{
+    color:white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
-
-a.active,
-a:hover {
+a.active,a:hover{
     background: #f8961e;
     transition: .5s;
-}
 
-/* Remove hover effect for label inside the ul */
+}
 nav ul li a:hover:not(.not_hover) {
     background: none;
     transition: none;
 }
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+/* CSS */
+.button-87 {
+    margin: 0px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-87:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button-87:active {
+    transform: scale(0.9);
+  }
