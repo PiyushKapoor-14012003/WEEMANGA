@@ -7,16 +7,22 @@
 }
 body{
     font-family: montserrat;
-    background-image: linear-gradient(#10002b,#e0aaff);
-    background-size: 1000px 1000px;
+    background-image: linear-gradient(#fcfaff,#6f6cd8);
+    background-size: 2000px 2000px;
 }
+th,tr,td {
+    padding: 5px;
+    /*border: 2px;
+    border-style: solid;
+    border-color: #f84803;*/
+  }
 nav{
     background:none;
     height: 80px;
     width: 100%;
 }
 label.logo{
-    color:white;
+    color:rgb(250, 248, 248);
     font-size:35px;
     line-height: 80px;
     padding: 0 100px;
@@ -32,21 +38,22 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color:white;
+    color:rgb(12, 12, 12);
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
-a.active,a:hover{
-    background: #f8961e;
+/*a.active,a:hover{
+    background: #ff2402b6;
     transition: .5s;
 
-}
+}*/
 nav ul li a:hover:not(.not_hover) {
     background: none;
     transition: none;
 }
+
 .checkbtn{
     font-size: 30px;
     color: white;
@@ -56,6 +63,30 @@ nav ul li a:hover:not(.not_hover) {
     cursor: pointer;
     display: none;
 }
+.cell{
+    padding: 10px;
+    background-color: #ebe6e0;
+    width: 400px;
+}
+div.scrollmenu {
+    background-color:rgba(255, 254, 252, 0.975);
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+    div.scrollmenu a {
+    display: inline-block;
+    color: rgba(252, 251, 249, 0.987);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+  }
+ /* div.scrollmenu img:hover {
+    display: inline-block;
+    color: rgba(252, 6, 6, 0.886);
+    padding: 30px;
+  }*/
+  
 #check{
     display: none;
 }
