@@ -23,4 +23,31 @@
     -webkit-transition-timing-function:ease-in-out;
     -moz-transition-timing-function:ease-in-out;
     transition-timing-function:ease-in-out
+    
+}
+/* <!///////////////////////////////////////////Abhishek Singh */
+.o_primary-nav{
+    list-style-type:none;
+    -webkit-box-ordinal-group:1;
+    -moz-box-ordinal-group:1;
+    box-ordinal-group:1;
+    -webkit-order:1;
+    -moz-order:1;
+    order:1;
+    -ms-flex-order:1
+}
+.o_primary-nav-link{
+    -webkit-transition:color 0.1s ease;
+    -moz-transition:color 0.1s ease;
+    transition:color 0.1s ease;
+    color:#FFFFFF
+}
+.o_primary-nav-link:hover{
+    text-decoration:none
+}
+.o_primary-nav-item.active{
+    border-bottom:5px solid #2E2E2E;
+    padding-bottom:3px;
+    border-bottom:5px solid transparent;
+    font-size:26px;letter-spacing:-1.25px;
 }
