@@ -49,5 +49,27 @@
     border-bottom:5px solid #2E2E2E;
     padding-bottom:3px;
     border-bottom:5px solid transparent;
-    font-size:26px;letter-spacing:-1.25px;
+    font-size:26px;
+    letter-spacing:-1.25px;
+}
+.type-md{
+    font-size:28px;
+}
+.style-caps{
+    text-transform:uppercase;
+}
+.weight-bold{
+    font-weight:700;
+}
+.mar-y-md{
+    margin-top:15px;margin-bottom:15px;
+}
+.mar-y-0--lg{
+    margin-top:0px;margin-bottom:0px;
+}
+.disp-ib--lg{
+    display:inline-block;
+}
+.mar-r-md{
+    margin-right:15px;
 }
