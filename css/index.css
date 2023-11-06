@@ -20,6 +20,7 @@ nav{
     background:none;
     height: 80px;
     width: 100%;
+    position:fixed;
 }
 label.logo{
     color:rgb(250, 248, 248);
@@ -44,12 +45,12 @@ nav ul li a{
     border-radius: 3px;
     text-transform: uppercase;
 }
-/*a.active,a:hover{
+a.active,a:hover{
     background: #ff2402b6;
     transition: .5s;
 
-}*/
-nav ul li a:hover:not(.not_hover) {
+}
+nav a:hover:not(.not_hover) {
     background: none;
     transition: none;
 }
@@ -68,31 +69,16 @@ nav ul li a:hover:not(.not_hover) {
     background-color: #ebe6e0;
     width: 400px;
 }
-div.scrollmenu {
-    background-color:rgba(255, 254, 252, 0.975);
-    overflow: auto;
-    white-space: nowrap;
-  }
-  
-    div.scrollmenu a {
-    display: inline-block;
-    color: rgba(252, 251, 249, 0.987);
-    text-align: center;
-    padding: 30px;
-    text-decoration: none;
-  }
- /* div.scrollmenu img:hover {
-    display: inline-block;
-    color: rgba(252, 6, 6, 0.886);
-    padding: 30px;
-  }*/
   
 #check{
     display: none;
 }
+.card-text{
+    size: 30px;
+}
 
 /* CSS */
-.button-87 {
+.button-8 {
     margin: 0px;
     padding: 15px 30px;
     text-align: center;
@@ -112,13 +98,13 @@ div.scrollmenu {
     touch-action: manipulation;
   }
   
-  .button-87:hover {
+  .button-8:hover {
     background-position: right center;
     /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
   }
   
-  .button-87:active {
+  .button-8:active {
     transform: scale(0.9);
   }
