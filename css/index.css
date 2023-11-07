@@ -76,7 +76,78 @@ nav a:hover:not(.not_hover) {
 .card-text{
     size: 30px;
 }
-
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: aquamarine;
+    font-family:cursive;
+    font-size:2cm;
+}
+.centered2 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: aquamarine;
+    font-family:cursive;
+    font-size:2cm;
+}
+.centered3 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: aquamarine;
+    font-family:cursive;
+    font-size:2cm;
+}
+.centered4 {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(42, 5, 191);
+    font-family:cursive;
+    font-size:2cm;
+}
 /* CSS */
 .button-8 {
     margin: 0px;
