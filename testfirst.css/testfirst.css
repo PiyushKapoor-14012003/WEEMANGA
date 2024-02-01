@@ -1,0 +1,15 @@
+body{
+    padding: 1em;
+    background-color: #10002b;
+}
+#test{
+    padding: 10px 500px;
+    border: 5px;
+    border-style: solid;
+    color: white;
+    font-size: large;
+    justify-content: left;
+    border-style:solid;
+    border-color: orange;
+    background-color: #eac888;
+}

@@ -23,8 +23,56 @@
     -webkit-transition-timing-function:ease-in-out;
     -moz-transition-timing-function:ease-in-out;
     transition-timing-function:ease-in-out
-    
 }
+.o_site-header{
+    color:white
+}
+.o-curtain-header{
+    background:linear-gradient(#000, transparent)
+}
+.row{-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:0 4.4642857143%;
+    max-width:85.875rem;
+    margin-left:auto;
+    margin-right:auto
+}
+.flex{display:-webkit-box;
+    display:-moz-box;
+    display:box;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flexbox;
+    display:flex
+}
+.flex-justify{-webkit-box-pack:justify;
+    -moz-box-pack:justify;
+    box-pack:justify;
+    -ms-flex-pack:justify;
+    -webkit-box-pack:justify;
+    -moz-box-pack:justify;
+    box-pack:justify;
+    -webkit-justify-content:space-between;
+    -moz-justify-content:space-between;
+    -ms-justify-content:space-between;
+    -o-justify-content:space-between;
+    justify-content:space-between;
+    -ms-flex-pack:justify
+}
+.g-3--nvex:nth-child(1n){float:left;margin-right:2.1834061135%;width:23.3624454148%}
+.g-3--nvex:nth-child(1n):last-child{margin-right:0}
+.g-omega--nvex:nth-child(1n),.g-om-2n--nvex:nth-child(2n),.g-om-3n--nvex:nth-child(3n),.g-om-4n--nvex:nth-child(4n){margin-right:0}}
+.o_logo-img{-webkit-align-self:center;
+    -moz-align-self:center;
+    align-self:center;
+    -ms-flex-item-align:center;
+    display:block;
+    position:relative;
+    z-index:1
+}
+.color-blue{color:#00ADED}
+.type-md{font-size:28px}
 /* <!///////////////////////////////////////////Abhishek Singh */
 .o_primary-nav{
     list-style-type:none;

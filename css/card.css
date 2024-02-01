@@ -1,6 +1,6 @@
 :root {
     --card-height: 300px;
-    --card-width: calc(var(--card-height) / 1.5);
+    --card-width: calc(var(--card-height) / 1);
   }
   * {
     box-sizing: border-box;
